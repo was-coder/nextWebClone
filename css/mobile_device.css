@@ -1,0 +1,12 @@
+@media (max-width: 768px) { 
+  .top-container {
+    grid-template-areas:
+      "showcase-a top-box-a top-box-b showcase-b"
+      "top-box-c";
+  }
+
+  .showcase {
+    height: 400px;
+    min-width: 450px;
+  }
+}

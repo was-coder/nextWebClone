@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+
+  /* start of main-grid-styling */
+  .top-container {
+    width: 85%;
+    margin: 20px auto;
+    grid-template-areas:
+      "showcase-a showcase-a"
+      "top-box-a top-box-b"
+      "top-box-c showcase-b";
+      grid-template-columns: repeat(2,1fr);
+  }
+
+  
+  
+  .showcase-a {
+    height: 400px;
+  }
+  
+  .top-box-a {
+    height: 200px;
+  }
+
+  .top-box-c{
+    height: 200px;
+  }
+
+  .showcase-b {
+    height: 200px;
+  }
+/* end of main-grid-styling */
+}

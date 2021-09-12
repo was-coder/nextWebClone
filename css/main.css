@@ -1,0 +1,370 @@
+/* start of nav styling */
+.arrow-label {
+  width: 12px;
+  height: 12px;
+}
+
+.link-arrow {
+  cursor: default;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.tnw-nav-logo {
+  width: 65px;
+  height: 25px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav ul li:hover {
+  background-color: var(--next);
+  opacity: 0.6;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(80, 86, 102, 1);
+  font-size: 17px;
+}
+.nav ul li a:hover {
+  color: #000;
+}
+
+.envelope {
+  color: rgba(80, 86, 102, 0.3);
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px 0;
+}
+/* end of nav styling */
+
+/* start of yellow div styling */
+.yellow {
+  background-color: #fd3;
+  padding: 10px 20px;
+}
+
+.yellow span {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+/* end of yellow div styling */
+
+/* start of logo-heart section */
+.logo-heart {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+}
+
+.logo-heart svg {
+  width: 220px;
+}
+
+.logo-heart p {
+  font-size: 35px;
+}
+/* end of logo-heart section */
+
+/* start of main-grid-styling */
+.top-main {
+  display: grid;
+  grid-gap: 20px;
+  background-color: var(--next);
+  min-height: 100vh;
+  line-height: 30px;
+}
+
+.top-container {
+  display: grid;
+  grid-gap: 10px;
+  margin: 30px;
+  grid-template-areas:
+    "showcase-a top-box-a top-box-b"
+    "showcase-a showcase-b showcase-b"
+    "top-box-c showcase-b showcase-b";
+}
+
+.showcase {
+  height: 350px;
+}
+
+.showcase-a {
+  grid-area: showcase-a;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
+    url(/images/brand.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 550px;
+}
+
+.showcase-b {
+  grid-area: showcase-b;
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(/images/court.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-box-a {
+  grid-area: top-box-a;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+    url(/images/toyota.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.top-box-b {
+  grid-area: top-box-b;
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.1)),
+    url(/images/tesla.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-box-c {
+  grid-area: top-box-c;
+  height: 250px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/growth.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-container .top-box-c p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.top-container .top-box-c .btn {
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: none;
+  border: 1px solid var(--next);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--next);
+  cursor: pointer;
+}
+
+.top-container h1 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.top-container p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.top-container .ceo {
+  font-size: 35px;
+}
+
+.top-container .germany {
+  font-size: 35px;
+}
+
+/* end of main-grid-styling */
+
+/* start of advert section styling */
+.advert-section {
+  min-height: 20vh;
+  background-color: var(--next);
+  padding: 20px;
+}
+
+.advert {
+  height: 100px;
+  width: 65%;
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advert p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* end of advert section styling */
+
+/* start of article section styling */
+.article {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 25px;
+  min-height: 50vh;
+  margin: 50px 0;
+}
+
+.article h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  color: rgba(80, 86, 102, 0.5);
+}
+
+.articles-div ol {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.articles-div ol li {
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.articles-div ol li a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #000;
+}
+/* end of article section styling */
+
+/* start of stories styling */
+.stories {
+  background-color: var(--next);
+  padding: 50px;
+  min-height: 160vh;
+}
+
+.special-h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding: 50px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-stories-div {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
+}
+
+.main-stories-div img {
+  width: 270px;
+  height: 150px;
+}
+
+.main-stories-div p {
+  width: 90%;
+  font-weight: bold;
+}
+
+.main-stories-div span {
+  color: rgba(80, 86, 102, 0.5);
+  font-size: 0.9rem;
+}
+
+.btn-news {
+  display: block;
+  text-align: center;
+  padding: 15px 25px;
+  border: 1px solid rgba(80, 86, 102, 0.5);
+  background: none;
+  margin: 0 auto;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* end of stories styling */
+
+/* start of explore styling */
+.explore {
+  background-color: rgba(80, 86, 102, var(--text-opacity));
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.main-explore-div {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.main-explore-div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  color: var(--next);
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-explore-div h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.explore-a {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/plugg.webp);
+}
+
+.explore-b {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/neural.jpg);
+}
+
+.explore-c {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/shift.jpg);
+}
+
+.explore-d {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/growth.jpg);
+}
+
+.explore-d h3 {
+  line-height: 20px;
+}
+
+.explore-e {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hard.webp);
+}
+/* end of explore styling */
