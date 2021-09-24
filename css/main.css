@@ -109,8 +109,8 @@
 
 .showcase-a {
   grid-area: showcase-a;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
-    url(/images/brand.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://source.unsplash.com/random/200x200);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,8 +119,8 @@
 
 .showcase-b {
   grid-area: showcase-b;
-  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url(/images/court.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://source.unsplash.com/random/201x200);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,8 +128,8 @@
 
 .top-box-a {
   grid-area: top-box-a;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
-    url(/images/toyota.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://source.unsplash.com/random/202x200);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,8 +138,8 @@
 
 .top-box-b {
   grid-area: top-box-b;
-  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.1)),
-    url(/images/tesla.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://source.unsplash.com/random/203x200);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,8 +148,8 @@
 .top-box-c {
   grid-area: top-box-c;
   height: 250px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/growth.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://source.unsplash.com/random/204x200);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@
 .explore {
   background-color: rgba(80, 86, 102, var(--text-opacity));
   padding: 30px;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .main-explore-div {
@@ -368,3 +368,59 @@
     url(../images/hard.webp);
 }
 /* end of explore styling */
+
+/* start of newsletter styling */
+.newsletter-div {
+  background:url(/images/shift.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 70px 0;
+  color: var(--next);
+}
+
+.newsletter-div h3{
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.newsletter-div p > a{
+  color: aqua;
+  text-decoration: none;
+}
+
+.newsletter-div p > a:hover{
+  color: #fff;
+  font-weight: bold;
+}
+
+.newsletter-div input{
+  width: 55%;
+  margin: 20px auto;
+  display: block;
+  padding: 15px;
+  border-radius: 5px;
+  border: #fff;
+}
+
+.newsletter-div > div{
+  position: relative;
+}
+
+.newsletter-div .input-i{
+  position: absolute;
+  left: 23%;
+  top: 25%;
+  color: blue;
+  font-size: 20px;
+}
+
+.newsletter-div i{
+  font-size: 25px;
+  padding: 0 5px;
+  opacity: 0.3;
+}
+
+/* end of newsletter styling */
