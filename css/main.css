@@ -439,7 +439,7 @@
 .watch {
   background-color: rgba(80, 86, 102, var(--text-opacity));
   padding: 30px 40px;
-  min-height: 50vh;
+  min-height: 150vh;
 }
 
 .watch-display {
@@ -487,3 +487,67 @@
   font-weight:bold;
 }
 /* end of watch styling */
+
+/* start of goal styling */
+.goal{
+  padding: 70px 40px;
+  min-height: 100vh;
+}
+
+.goal-display{
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal-text{
+  width: 50%;
+}
+
+.goal-text span{
+  opacity: 0.7;
+}
+
+.goal-text h3{
+  font-size: 35px;
+}
+
+.goal-text p{
+  font-size: 1.3rem;
+  opacity: 0.8;
+  padding: 20px 0;
+}
+
+.goal-text button{
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(9, 185, 177);
+  border: rgb(9, 185, 177);
+  color: var(--next);
+  cursor: pointer;
+}
+
+.goal-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.goal-img img{
+  width: 40%;
+}
+
+.goal-img .pillar{
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.goal-img .pillar p{
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+/* end of goal styling */
