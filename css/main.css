@@ -402,6 +402,7 @@
   display: block;
   padding: 15px;
   border-radius: 5px;
+  padding-left: 40px;
   border: #fff;
 }
 
@@ -417,6 +418,15 @@
   font-size: 20px;
 }
 
+.newsletter-div >div p{
+  position: absolute;
+  right: 23%;
+  top: 25%;
+  color: grey;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 .newsletter-div i{
   font-size: 25px;
   padding: 0 5px;
@@ -424,3 +434,56 @@
 }
 
 /* end of newsletter styling */
+
+/* start of watch styling */
+.watch {
+  background-color: rgba(80, 86, 102, var(--text-opacity));
+  padding: 30px 40px;
+  min-height: 50vh;
+}
+
+.watch-display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.watch-display .watch-inner{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right:150px;
+  height: 600px;
+}
+
+.watch-display > div > video{
+  max-width: 95%;
+  max-height: 100%;
+}
+
+.text{
+  background-color: #000;
+  color: #fff;
+  width: 95%;
+  margin-top: -10px;
+  padding: 20px 30px;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
+
+.text span {
+  font-size: 12px;
+  opacity: 0.3;
+}
+
+.watch-display .watch-inner .video-gen{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.text-inner{
+  margin-bottom: 30px;
+  width: 200px;
+  font-weight:bold;
+}
+/* end of watch styling */
