@@ -1,20 +1,11 @@
 /* start of nav styling */
-.arrow-label {
-  width: 12px;
-  height: 12px;
-}
-
-.link-arrow {
-  cursor: default;
-}
-
 .main-nav {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--next);
   top: 0;
   z-index: 1;
 }
@@ -35,7 +26,6 @@
 .nav ul li {
   list-style: none;
   padding: 10px;
-  text-align: center;
 }
 
 .nav ul li:hover {
@@ -45,19 +35,27 @@
 
 .nav ul li a {
   text-decoration: none;
-  font-family: "Times New Roman", Times, serif;
   color: rgba(80, 86, 102, 1);
-  font-size: 17px;
+  font-size: 1rem;
 }
 .nav ul li a:hover {
   color: #000;
 }
 
+.arrow-label {
+  width: 12px;
+  height: 12px;
+}
+
+.link-arrow {
+  cursor: default;
+}
+
 .envelope {
   color: rgba(80, 86, 102, 0.3);
   cursor: pointer;
-  font-size: 20px;
-  margin: 10px 0;
+  font-size: 1.1rem;
+  margin: 12px 0;
 }
 /* end of nav styling */
 
@@ -81,7 +79,7 @@
 .logo-heart {
   display: flex;
   justify-content: space-between;
-  margin: 200px 80px 80px;
+  margin: 12rem 7rem 7rem;
 }
 
 .logo-heart svg {
@@ -89,7 +87,7 @@
 }
 
 .logo-heart p {
-  font-size: 35px;
+  font-size: 2.4rem;
 }
 /* end of logo-heart section */
 
@@ -105,7 +103,7 @@
 .top-container {
   display: grid;
   grid-gap: 10px;
-  margin: 30px;
+  margin: 20px 30px;
   grid-template-areas:
     "showcase-a top-box-a top-box-b"
     "showcase-a showcase-b showcase-b"
@@ -197,11 +195,11 @@
 }
 
 .top-container .ceo {
-  font-size: 35px;
+  font-size: 2.3rem;
 }
 
 .top-container .germany {
-  font-size: 35px;
+  font-size: 2rem;
 }
 
 /* end of main-grid-styling */

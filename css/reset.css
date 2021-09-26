@@ -15,12 +15,7 @@
 
 body {
   background-color: rgba(80, 86, 102, var(--text-opacity));
-  font-size: 1rem;
   line-height: 1.5;
-}
-
-img {
-  max-width: 100%;
 }
 
 .box-bottom {
@@ -31,4 +26,3 @@ img {
   color: var(--next);
   text-decoration: none;
 }
-
