@@ -11,7 +11,12 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 40px;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  z-index: 1;
 }
 
 .tnw-nav-logo {
@@ -60,6 +65,10 @@
 .yellow {
   background-color: #fd3;
   padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 8%;
 }
 
 .yellow span {
@@ -72,7 +81,7 @@
 .logo-heart {
   display: flex;
   justify-content: space-between;
-  margin: 80px;
+  margin: 200px 80px 80px;
 }
 
 .logo-heart svg {
@@ -417,8 +426,9 @@
   position: absolute;
   left: 23%;
   top: 25%;
-  color: blue;
+  color: gray;
   font-size: 20px;
+  opacity: 0.7;
 }
 
 .newsletter-div >div p{
@@ -432,8 +442,11 @@
 
 .awesome{
   font-size: 25px;
-  padding: 0 5px;
   opacity: 0.3;
+}
+
+.awesome i{
+  padding: 0 5px;
 }
 
 /* end of newsletter styling */
@@ -577,8 +590,9 @@
 
 /* start of footer styling */
 footer{
-  background-color: gray;
-  padding: 50px;
+  background-color: var(--secondary);
+  padding: 60px 0;
+  color: var(--next);
 }
 
 .footer-display{
@@ -587,5 +601,56 @@ footer{
   grid-template-columns: repeat(3,1fr);
   margin: 0 auto;
   width: 95%;
+}
+
+.footer-display svg{
+  width: 40%;
+}
+
+.footer-display h4{
+  font-size: 1.6rem;
+  padding: 10px 0 45px 0;
+}
+
+.footer-display h3{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.footer-display li{
+  list-style-type: none;
+}
+
+.footer-display li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--others);
+  font-size: 1.1rem;
+}
+
+.footer-hr{
+  margin-top: 25px;
+  opacity: 0.3;
+}
+
+.footer-text{
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 80%;
+  color: gray;
+  text-align: center;
+}
+
+
+.footer-text p a{
+  text-decoration: none;
+  color: var(--next);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.footer-text p a:hover{
+  color: purple;
+  transition: 0.5s;
 }
 /* end of footer styling */
