@@ -79,15 +79,16 @@
 .logo-heart {
   display: flex;
   justify-content: space-between;
-  margin: 12rem 7rem 7rem;
+  margin: 12rem 4rem 7rem;
 }
 
 .logo-heart svg {
-  width: 220px;
+  width: 18%;
 }
 
 .logo-heart p {
   font-size: 2.4rem;
+  opacity: 0.8;
 }
 /* end of logo-heart section */
 
@@ -96,7 +97,7 @@
   display: grid;
   grid-gap: 20px;
   background-color: var(--next);
-  min-height: 100vh;
+  min-height: 120vh;
   line-height: 30px;
 }
 
@@ -111,7 +112,7 @@
 }
 
 .showcase {
-  height: 350px;
+  min-height: 50vh;
 }
 
 .showcase-a {
@@ -121,7 +122,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-width: 550px;
+  min-width: 33vw;
 }
 
 .showcase-b {
@@ -140,7 +141,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 250px;
+  min-height: 35vh;
+  min-width: 10vw;
 }
 
 .top-box-b {
@@ -149,12 +151,13 @@
     url(https://source.unsplash.com/random/203x200);
   background-size: cover;
   background-position: center;
+  min-width: 10vw;
   background-repeat: no-repeat;
 }
 
 .top-box-c {
   grid-area: top-box-c;
-  height: 250px;
+  min-height: 25vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://source.unsplash.com/random/204x200);
   background-size: cover;
@@ -169,7 +172,7 @@
   width: 80%;
   margin: 0 auto;
   font-size: 1.6rem;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .top-container .top-box-c .btn {
@@ -202,20 +205,11 @@
   font-size: 2rem;
 }
 
-/* end of main-grid-styling */
-
-/* start of advert section styling */
-.advert-section {
-  min-height: 20vh;
-  background-color: var(--next);
-  padding: 20px;
-}
-
 .advert {
-  height: 100px;
+  height: 80px;
   width: 65%;
   display: block;
-  margin: 15px auto;
+  margin: 0 auto;
   border: 1px solid #000;
   display: flex;
   align-items: center;
@@ -226,7 +220,8 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-/* end of advert section styling */
+
+/* end of main-grid-styling */
 
 /* start of article section styling */
 .article {
@@ -270,31 +265,28 @@
 /* start of stories styling */
 .stories {
   background-color: var(--next);
-  padding: 50px;
-  min-height: 160vh;
+  padding: 0 50px;
+  min-height: 150vh;
 }
 
 .special-h2 {
   font-weight: bolder;
   font-size: 2.5rem;
   padding: 50px 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-stories-div {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 50px;
 }
 
 .main-stories-div img {
-  width: 270px;
-  height: 150px;
+  width: 100%;
+  height: 45%;
 }
 
 .main-stories-div p {
-  width: 90%;
   font-weight: bold;
 }
 
@@ -313,6 +305,7 @@
   border-radius: 25px;
   text-transform: uppercase;
   font-weight: bold;
+  opacity: 0.7;
 }
 /* end of stories styling */
 
@@ -320,6 +313,7 @@
 .explore {
   background-color: rgba(80, 86, 102, var(--text-opacity));
   padding: 30px;
+  margin-top: 30px;
   min-height: 90vh;
 }
 
@@ -333,9 +327,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 250px;
+  padding: 0 20px;
+  min-width: 100%;
+  height: 45vh;
+  font-size: 1.1rem;
   color: var(--next);
   text-align: center;
   background-position: center;
@@ -396,6 +391,10 @@
   margin-bottom: 10px;
 }
 
+.newsletter-div p{
+  font-size: 1.2rem;
+}
+
 .newsletter-div p > a{
   color: aqua;
   text-decoration: none;
@@ -406,47 +405,48 @@
   font-weight: bold;
 }
 
+.newsletter-div > div{
+  position: relative;
+}
+
 .newsletter-div input{
-  width: 55%;
+  width: 65%;
   margin: 20px auto;
   display: block;
   padding: 15px;
+  font-size: 1rem;
   border-radius: 5px;
   padding-left: 40px;
   border: #fff;
 }
 
-.newsletter-div > div{
-  position: relative;
-}
-
 .newsletter-div .input-i{
   position: absolute;
-  left: 23%;
-  top: 25%;
+  left: 18.5%;
+  top: 32%;
   color: gray;
-  font-size: 20px;
-  opacity: 0.7;
+  font-size: 1rem;
+  opacity: 0.5;
 }
 
 .newsletter-div >div p{
   position: absolute;
-  right: 23%;
+  right: 18.5%;
   top: 25%;
   color: grey;
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .awesome{
-  font-size: 25px;
-  opacity: 0.3;
+  font-size: 1.5rem;
+  opacity: 0.6;
 }
 
 .awesome i{
   padding: 0 5px;
 }
-
 /* end of newsletter styling */
 
 /* start of watch styling */
@@ -514,7 +514,7 @@
 }
 
 .goal-text{
-  width: 50%;
+  width: 45%;
 }
 
 .goal-text span{
@@ -532,24 +532,24 @@
 }
 
 .goal-text button{
-  padding: 10px 20px;
+  padding: 15px 20px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: rgb(9, 185, 177);
   border: rgb(9, 185, 177);
   color: var(--next);
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .goal-img{
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
   width: 50%;
 }
 
 .goal-img img{
-  width: 40%;
+  width: 50%;
 }
 
 .goal-img .pillar{
@@ -569,10 +569,8 @@
 /* start of sponsor section */
 .sponsor-display{
   display: grid;
-  grid-gap: 5px;
   grid-template-columns: repeat(8,1fr);
-  margin: 0 auto;
-  width: 90%;
+  margin: 0 70px 50px;
 }
 
 .sponsor-display img{
@@ -595,8 +593,8 @@ footer{
 
 .footer-display{
   display: grid;
-  grid-gap: 100px;
-  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+  grid-template-columns: 2fr 1fr 1fr;
   margin: 0 auto;
   width: 95%;
 }
