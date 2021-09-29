@@ -9,10 +9,107 @@
     height: 400px;
     min-width: 450px;
   }
-}
 
-.top-box-c{
+  .top-box-c{
   display: block;
   width: 100%;
   flex-grow: 1;
+}
+/* start of watch styling */
+.watch {
+  padding: 30px 0;
+}
+
+.watch-display > div > video{
+  min-width: 100%;
+}
+
+.text{
+  width: 100%;
+}
+
+.watch h2{
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 0 0 20px 0;
+}
+
+.watch-display {
+  flex-direction: column;
+}
+
+.watch-display .watch-inner{
+  margin-top: 20px;
+  margin-left: 20px;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 95%;
+  height: 100%;
+}
+
+.watch-display .watch-inner .video-gen{
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+/* end of watch styling */
+
+/* start of goal styling */
+.goal-display{
+  flex-direction: column;
+  text-align: center;
+}
+
+.goal-text{
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.goal-text span{
+  font-size: 16px;
+}
+
+.goal-text h3{
+  font-size: 1.5rem;
+}
+
+.goal-img{
+  margin-top: 30px;
+  width: 100%;
+}
+
+.goal-img img{
+  width: 35%;
+}
+
+.goal-img .pillar{
+  flex-direction: column;
+  padding: 15px;
+}
+
+.goal-img .pillar p{
+  padding: 10px;
+}
+/* end of goal styling */
+
+/* start of sponsor section */
+.sponsor-display{
+  grid-template-columns: repeat(2,1fr);
+}
+/* end of sponsor section */
+
+/* start of footer styling */
+.footer-display{
+  width: 95%;
+}
+
+.footer-display h4{
+  padding-bottom: 25px;
+}
+
+.footer-display svg{
+  width: 30%;
+}
+/* end of footer styling */
 }
