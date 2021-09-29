@@ -1,20 +1,100 @@
 @media (max-width: 768px) { 
-  .top-container {
-    /* display: block; */
+.special-h2{
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 0 0 20px 0;
+}
+
+/* start of main grid styling */
+.top-main{
+  min-height: 80vh;
+}  
+
+.top-container {
     overflow-x: scroll;
     display: flex;
+    margin: 2px;
   }
 
   .showcase {
     height: 400px;
-    min-width: 450px;
+    min-width: 550px;
   }
 
   .top-box-c{
-  display: block;
-  width: 100%;
-  flex-grow: 1;
+    display: none;
 }
+
+  .top-box-a{
+  min-width: 550px;
+  height: 400px;
+}
+
+/* .top-box-mobile {
+  grid-area: top-box-c;
+  min-height: 25vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://source.unsplash.com/random/204x200);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+  .top-box-b{
+  min-width: 550px;
+  height: 400px;
+}
+/* end of main grid styling */
+
+/* start of stories styling */
+.main-stories-div {
+  grid-template-columns: 1fr;
+}
+
+.main-stories-div > div{
+  display: flex;
+}
+
+.main-stories-div img {
+  width: 30vw;
+  border-radius: 50%;
+  height: 30vh;
+  margin-right: 20px;
+}
+/* end of stories styling */
+
+/* start of explore styling */
+.main-explore-div > div{
+  min-width: 32%;
+}
+/* end of explore styling */
+
+/* start of newsletter styling */
+.newsletter-div h3{
+  font-size: 25px;
+}
+
+.newsletter-div p{
+  font-size: 1.1rem;
+}
+
+.newsletter-div input{
+  width: 95%;
+  padding-left: 35px;
+}
+
+.newsletter-div .input-i{
+  left: 4%;
+}
+
+.newsletter-div > div p{
+  right: 4%;
+}
+/* end of newsletter styling */
+
 /* start of watch styling */
 .watch {
   padding: 30px 0;
@@ -28,18 +108,11 @@
   width: 100%;
 }
 
-.watch h2{
-  text-align: center;
-  font-size: 1.7rem;
-  padding: 0 0 20px 0;
-}
-
 .watch-display {
   flex-direction: column;
 }
 
 .watch-display .watch-inner{
-  margin-top: 20px;
   margin-left: 20px;
   flex-direction: row;
   overflow-y: hidden;

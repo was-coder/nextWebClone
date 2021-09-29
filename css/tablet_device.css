@@ -95,12 +95,8 @@
 /* end of stories styling */
 
 /* start of explore styling */
-.main-explore-div {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.main-explore-div .explore-b{
-  display: none;
+.main-explore-div > div{
+  min-width: 23.5%;
 }
 /* end of explore styling */
 

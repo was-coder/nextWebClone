@@ -291,7 +291,7 @@
 .main-stories-div p {
   font-weight: bold;
 }
-
+  
 .main-stories-div span {
   color: rgba(80, 86, 102, 0.5);
   font-size: 0.9rem;
@@ -320,17 +320,17 @@
 }
 
 .main-explore-div {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
 }
 
 .main-explore-div > div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 0 20px;
-  min-width: 100%;
+  padding: 0 15px;
+  min-width: 19%;
   height: 45vh;
   font-size: 1.1rem;
   color: var(--next);
