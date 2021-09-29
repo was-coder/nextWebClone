@@ -13,9 +13,10 @@
 
 /* start of logo-heart section */
 .logo-heart {
+  background-color: rgba(80, 86, 102, var(--text-opacity));
   align-items: center;
   flex-direction: column;
-  margin: 5rem 0 2rem;
+  padding: 5rem 4rem 1rem;
 }
 
 .logo-heart svg {
@@ -32,6 +33,7 @@
 .top-main{
   background-color: rgba(80, 86, 102, 0);
   min-height: 150vh;
+  margin-top: 20px;
 }
 
   .top-container {
@@ -72,6 +74,7 @@
 }
 
 .articles-div ol {
+  grid-gap: 40px;
   grid-template-columns: 1fr;
 }
 /* end of article section styling */
@@ -90,4 +93,70 @@
   margin: 50px auto;
 }
 /* end of stories styling */
+
+/* start of explore styling */
+.main-explore-div {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-explore-div .explore-b{
+  display: none;
+}
+/* end of explore styling */
+
+/* start of newsletter styling */
+.newsletter-div h3{
+  font-size: 35px;
+}
+/* end of newsletter styling */
+
+/* start of goal styling */
+.goal-img img{
+  width: 65%;
+}
+
+.goal-img .pillar{
+  flex-direction: column;
+  padding: 15px;
+}
+
+.goal-img .pillar p{
+  padding: 10px;
+}
+/* end of goal styling */
+
+/* start of sponsor section */
+.sponsor-display{
+  grid-template-columns: repeat(3,1fr);
+}
+
+.sponsor-display img{
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+/* end of sponsor section */
+
+/* start of footer styling */
+.footer-display{
+  grid-template-columns: 1fr;
+  width: 85%;
+}
+
+.footer-display svg{
+  width: 20%;
+}
+
+.footer-display h4{
+  padding-bottom: 5px;
+}
+
+.footer-display .second-side{
+  display: flex;
+  margin-top: 10px;
+  width: 70%;
+  justify-content: space-between;
+}
+
+/* end of footer styling */
 }

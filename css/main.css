@@ -79,7 +79,7 @@
 .logo-heart {
   display: flex;
   justify-content: space-between;
-  margin: 12rem 4rem 7rem;
+  padding: 12rem 4rem 7rem;
 }
 
 .logo-heart svg {
@@ -87,7 +87,7 @@
 }
 
 .logo-heart p {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   opacity: 0.8;
 }
 /* end of logo-heart section */
@@ -225,9 +225,11 @@
 
 /* start of article section styling */
 .article {
+  background-color: rgba(80, 86, 102, var(--text-opacity));
   line-height: 25px;
   min-height: 50vh;
   margin: 50px 0;
+  padding: 100px 0;
 }
 
 .article h2 {
@@ -410,19 +412,19 @@
 }
 
 .newsletter-div input{
-  width: 65%;
+  width: 60%;
   margin: 20px auto;
   display: block;
   padding: 15px;
   font-size: 1rem;
   border-radius: 5px;
-  padding-left: 40px;
+  padding-left: 30px;
   border: #fff;
 }
 
 .newsletter-div .input-i{
   position: absolute;
-  left: 18.5%;
+  left: 20.5%;
   top: 32%;
   color: gray;
   font-size: 1rem;
@@ -431,7 +433,7 @@
 
 .newsletter-div >div p{
   position: absolute;
-  right: 18.5%;
+  right: 20.5%;
   top: 25%;
   color: grey;
   font-size: 1rem;
@@ -453,7 +455,7 @@
 .watch {
   background-color: rgba(80, 86, 102, var(--text-opacity));
   padding: 30px 40px;
-  min-height: 150vh;
+  min-height: 140vh;
 }
 
 .watch-display {
@@ -593,8 +595,7 @@ footer{
 
 .footer-display{
   display: grid;
-  grid-gap: 50px;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   margin: 0 auto;
   width: 95%;
 }
@@ -611,6 +612,11 @@ footer{
 .footer-display h3{
   text-transform: uppercase;
   padding-bottom: 10px;
+}
+
+.footer-display .second-side{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer-display li{

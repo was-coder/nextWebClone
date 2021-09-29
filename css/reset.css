@@ -2,7 +2,7 @@
   --secondary: #000;
   --next: #fff;
   --others: rgb(0, 204, 204);
-  --text-opacity: 0.1;
+  --text-opacity: 0.05;
 }
 
 *,
@@ -14,7 +14,6 @@
 }
 
 body {
-  background-color: rgba(80, 86, 102, var(--text-opacity));
   line-height: 1.5;
 }
 
