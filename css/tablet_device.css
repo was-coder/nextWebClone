@@ -1,5 +1,26 @@
 @media (max-width: 1024px) {
   /* start of nav styling */
+  .hamburger {
+    position: absolute;
+    height: 3.5rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 1.5rem 1.5rem;
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnPjxwYXRoIGQ9J00zIDNoNHY0SDN6bTE0IDBoNHY0aC00em0tNyAwaDR2NGgtNHptLTcgN2g0djRIM3ptMTQgMGg0djRoLTR6bS03IDBoNHY0aC00em0tNyA3aDR2NEgzem0xNCAwaDR2NGgtNHptLTcgMGg0djRoLTR6JyBmaWxsPScjQTdBQUIyJy8+PC9zdmc+);
+    left: 0;
+    top: -10%;
+  }
+
+  .tnw-logo-link {
+    padding-left: 30px;
+    opacity: 0.4;
+  }
+
+  .nav {
+    display: none;
+  }
+
   .envelope {
     display: none;
   }
