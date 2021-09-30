@@ -112,7 +112,7 @@
 }
 
 .showcase {
-  min-height: 50vh;
+  height: 75vh;
 }
 
 .showcase-a {
@@ -157,7 +157,7 @@
 
 .top-box-c {
   grid-area: top-box-c;
-  min-height: 25vh;
+  min-height: 35vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://source.unsplash.com/random/204x200);
   background-size: cover;
@@ -382,11 +382,15 @@
 /* end of explore styling */
 
 /* start of newsletter styling */
+.newsletter-main{
+  background-color: #000;
+}
+
 .newsletter-div {
-  background:url(/images/shift.jpg);
+  background:url(/images/spacesbg.png);
   background-repeat: no-repeat;
+  background-attachment:fixed ;
   background-size: cover;
-  background-position: center;
   text-align: center;
   padding: 70px 0;
   color: var(--next);

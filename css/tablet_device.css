@@ -49,12 +49,16 @@
     min-height: 60vh;
   }
 
+  .showcase-b{
+    max-height: 35vh;
+  }
+
   .top-box-a{
     min-height: 30vh;
   }
 
-  .showcase-b {
-    min-height: 5vh;
+  .top-box-c{
+    max-height: 15vh;
   }
 
 .top-container .top-box-c p{

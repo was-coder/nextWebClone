@@ -40,6 +40,10 @@
     display: none;
 }
 
+.showcase-b{
+    height: 400px;
+  }
+
 .top-box-mobile {
   margin: 5px;
   min-height: 30vh;
