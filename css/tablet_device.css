@@ -22,7 +22,7 @@
   }
 
   .envelope {
-    display: none;
+    visibility: hidden;
   }
 
   /* end of nav styling */
