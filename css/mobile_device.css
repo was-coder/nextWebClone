@@ -45,6 +45,7 @@
       url(https://source.unsplash.com/random/204x200);
     background-size: cover;
     display: flex;
+    flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
@@ -72,7 +73,6 @@
     font-size: 1.6rem;
     margin-bottom: 10px;
   }
-
 
   /* end of main grid styling */
 

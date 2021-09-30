@@ -192,7 +192,7 @@
   margin-bottom: 10px;
 }
 
-.top-box-c .btn {
+.btn {
   font-size: 0.8rem;
   padding: 10px 20px;
   border-radius: 20px;
@@ -640,16 +640,22 @@ footer {
   padding-bottom: 10px;
 }
 
-.footer-display .second-side {
+.second-side {
   display: flex;
   justify-content: space-evenly;
 }
 
-.footer-display li {
-  list-style-type: none;
+.second-side-div1 {
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-display li a {
+.second-side-div2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-display a {
   text-decoration: none;
   text-transform: capitalize;
   color: var(--others);
