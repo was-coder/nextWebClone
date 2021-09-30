@@ -39,6 +39,7 @@ Contributions, issues and feature requests are welcome!
 Feel free to check the issues page.
 
 ## Acknowledgments
+
 - https://github.com/adejam/html-and-css-templates/blob/main/README.md
 
 ## 📝 License

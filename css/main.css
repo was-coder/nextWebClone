@@ -38,6 +38,7 @@
   color: rgba(80, 86, 102, 1);
   font-size: 1rem;
 }
+
 .nav ul li a:hover {
   color: #000;
 }
@@ -57,6 +58,7 @@
   font-size: 1.1rem;
   margin: 12px 0;
 }
+
 /* end of nav styling */
 
 /* start of yellow div styling */
@@ -73,6 +75,7 @@
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
+
 /* end of yellow div styling */
 
 /* start of logo-heart section */
@@ -90,6 +93,7 @@
   font-size: 2.3rem;
   opacity: 0.8;
 }
+
 /* end of logo-heart section */
 
 /* start of main-grid-styling */
@@ -111,23 +115,22 @@
     "top-box-c showcase-b showcase-b";
 }
 
-.showcase {
-  height: 75vh;
-}
-
 .showcase-a {
   grid-area: showcase-a;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://source.unsplash.com/random/200x200);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-width: 33vw;
+  min-height: 75vh;
 }
 
 .showcase-b {
   grid-area: showcase-b;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url(https://source.unsplash.com/random/201x200);
   background-size: cover;
   background-position: center;
@@ -136,7 +139,8 @@
 
 .top-box-a {
   grid-area: top-box-a;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url(https://source.unsplash.com/random/202x200);
   background-size: cover;
   background-position: center;
@@ -147,7 +151,8 @@
 
 .top-box-b {
   grid-area: top-box-b;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://source.unsplash.com/random/203x200);
   background-size: cover;
   background-position: center;
@@ -158,7 +163,8 @@
 .top-box-c {
   grid-area: top-box-c;
   min-height: 35vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://source.unsplash.com/random/204x200);
   background-size: cover;
   background-position: center;
@@ -167,6 +173,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.top-container p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.advert p {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .top-container .top-box-c p {
@@ -193,11 +209,6 @@
   text-transform: uppercase;
 }
 
-.top-container p {
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
 .top-container .ceo {
   font-size: 2.3rem;
 }
@@ -206,7 +217,7 @@
   font-size: 2rem;
 }
 
-.top-box-mobile{
+.top-box-mobile {
   display: none;
 }
 
@@ -220,12 +231,6 @@
   align-items: center;
   justify-content: center;
 }
-
-.advert p {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 /* end of main-grid-styling */
 
 /* start of article section styling */
@@ -235,6 +240,18 @@
   min-height: 50vh;
   margin: 50px 0;
   padding: 100px 0;
+}
+
+.articles-div ol li {
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.articles-div ol li a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #000;
 }
 
 .article h2 {
@@ -252,21 +269,10 @@
   width: 80%;
 }
 
-.articles-div ol li {
-  color: purple;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.articles-div ol li a {
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: #000;
-}
-
-.articles-div ol li a:hover{
+.articles-div ol li a:hover {
   text-decoration: underline purple;
 }
+
 /* end of article section styling */
 
 /* start of stories styling */
@@ -296,7 +302,7 @@
 .main-stories-div p {
   font-weight: bold;
 }
-  
+
 .main-stories-div span {
   color: rgba(80, 86, 102, 0.5);
   font-size: 0.9rem;
@@ -314,6 +320,7 @@
   font-weight: bold;
   opacity: 0.7;
 }
+
 /* end of stories styling */
 
 /* start of explore styling */
@@ -352,22 +359,26 @@
 }
 
 .explore-a {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/plugg.webp);
 }
 
 .explore-b {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/neural.jpg);
 }
 
 .explore-c {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/shift.jpg);
 }
 
 .explore-d {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/growth.jpg);
 }
 
@@ -376,51 +387,53 @@
 }
 
 .explore-e {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/hard.webp);
 }
+
 /* end of explore styling */
 
 /* start of newsletter styling */
-.newsletter-main{
+.newsletter-main {
   background-color: #000;
 }
 
 .newsletter-div {
-  background:url(/images/spacesbg.png);
+  background: url(/images/spacesbg.png);
   background-repeat: no-repeat;
-  background-attachment:fixed ;
+  background-attachment: fixed;
   background-size: cover;
   text-align: center;
   padding: 70px 0;
   color: var(--next);
 }
 
-.newsletter-div h3{
+.newsletter-div h3 {
   font-size: 45px;
   font-weight: bolder;
   margin-bottom: 10px;
 }
 
-.newsletter-div p{
+.newsletter-div p {
   font-size: 1.2rem;
 }
 
-.newsletter-div p > a{
+.newsletter-div p > a {
   color: aqua;
   text-decoration: none;
 }
 
-.newsletter-div p > a:hover{
+.newsletter-div p > a:hover {
   color: #fff;
   font-weight: bold;
 }
 
-.newsletter-div > div{
+.newsletter-div > div {
   position: relative;
 }
 
-.newsletter-div input{
+.newsletter-div input {
   width: 60%;
   margin: 20px auto;
   display: block;
@@ -431,7 +444,7 @@
   border: #fff;
 }
 
-.newsletter-div .input-i{
+.newsletter-div .input-i {
   position: absolute;
   left: 20.5%;
   top: 32%;
@@ -440,7 +453,7 @@
   opacity: 0.5;
 }
 
-.newsletter-div >div p{
+.newsletter-div > div p {
   position: absolute;
   right: 20.5%;
   top: 25%;
@@ -450,14 +463,15 @@
   font-weight: bold;
 }
 
-.awesome{
+.awesome {
   font-size: 1.5rem;
   opacity: 0.6;
 }
 
-.awesome i{
+.awesome i {
   padding: 0 5px;
 }
+
 /* end of newsletter styling */
 
 /* start of watch styling */
@@ -472,21 +486,21 @@
   justify-content: space-evenly;
 }
 
-.watch-display .watch-inner{
+.watch-display .watch-inner {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
   overflow-x: hidden;
-  padding-right:150px;
+  padding-right: 150px;
   height: 600px;
 }
 
-.watch-display > div > video{
+.watch-display > div > video {
   max-width: 95%;
   max-height: 100%;
 }
 
-.text{
+.text {
   background-color: #000;
   color: #fff;
   width: 95%;
@@ -501,48 +515,49 @@
   opacity: 0.3;
 }
 
-.watch-display .watch-inner .video-gen{
+.watch-display .watch-inner .video-gen {
   max-width: 200px;
   max-height: 200px;
 }
 
-.text-inner{
+.text-inner {
   margin-bottom: 30px;
   width: 200px;
-  font-weight:bold;
+  font-weight: bold;
 }
+
 /* end of watch styling */
 
 /* start of goal styling */
-.goal{
+.goal {
   padding: 70px 40px;
   min-height: 50vh;
 }
 
-.goal-display{
+.goal-display {
   display: flex;
   justify-content: space-between;
 }
 
-.goal-text{
+.goal-text {
   width: 45%;
 }
 
-.goal-text span{
+.goal-text span {
   opacity: 0.7;
 }
 
-.goal-text h3{
+.goal-text h3 {
   font-size: 35px;
 }
 
-.goal-text p{
+.goal-text p {
   font-size: 1.3rem;
   opacity: 0.8;
   padding: 20px 0;
 }
 
-.goal-text button{
+.goal-text button {
   padding: 15px 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -553,17 +568,17 @@
   border-radius: 5px;
 }
 
-.goal-img{
+.goal-img {
   display: flex;
   justify-content: space-between;
   width: 50%;
 }
 
-.goal-img img{
+.goal-img img {
   width: 50%;
 }
 
-.goal-img .pillar{
+.goal-img .pillar {
   display: flex;
   align-items: center;
   padding: 25px;
@@ -571,80 +586,82 @@
   font-weight: bold;
 }
 
-.goal-img .pillar p{
+.goal-img .pillar p {
   font-size: 1.2rem;
   padding: 0 20px;
 }
+
 /* end of goal styling */
 
 /* start of sponsor section */
-.sponsor-display{
+.sponsor-display {
   display: grid;
-  grid-template-columns: repeat(8,1fr);
+  grid-template-columns: repeat(8, 1fr);
   margin: 0 70px 50px;
 }
 
-.sponsor-display img{
+.sponsor-display img {
   opacity: 0.7;
   cursor: pointer;
 }
 
-.sponsor-display img:hover{
+.sponsor-display img:hover {
   opacity: 1;
   transition: 0.5s;
 }
+
 /* end of sponsor section */
 
 /* start of footer styling */
-footer{
+footer {
   background-color: var(--secondary);
   padding: 60px 0;
   color: var(--next);
 }
 
-.footer-display{
+.footer-display {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: 0 auto;
   width: 95%;
 }
 
-.footer-display svg{
+.footer-display svg {
   width: 40%;
 }
 
-.footer-display h4{
+.footer-display h4 {
   font-size: 1.6rem;
   padding: 10px 0 45px 0;
 }
 
-.footer-display h3{
+.footer-display h3 {
   text-transform: uppercase;
   padding-bottom: 10px;
 }
 
-.footer-display .second-side{
+.footer-display .second-side {
   display: flex;
   justify-content: space-evenly;
 }
 
-.footer-display li{
+.footer-display li {
   list-style-type: none;
 }
 
-.footer-display li a{
+.footer-display li a {
   text-decoration: none;
   text-transform: capitalize;
   color: var(--others);
   font-size: 1.1rem;
 }
 
-.footer-hr{
+.footer-hr {
   margin-top: 25px;
   opacity: 0.3;
 }
 
-.footer-text{
+.footer-text {
   padding-top: 20px;
   margin: 0 auto;
   width: 80%;
@@ -652,15 +669,14 @@ footer{
   text-align: center;
 }
 
-
-.footer-text p a{
+.footer-text p a {
   text-decoration: none;
   color: var(--next);
   font-weight: 600;
   font-size: 0.9rem;
 }
 
-.footer-text p a:hover{
+.footer-text p a:hover {
   color: purple;
   transition: 0.5s;
 }
