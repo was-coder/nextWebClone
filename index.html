@@ -12,6 +12,8 @@
     <!-- start of nav section -->
     <div class="main-nav">
       <div>
+        <label class="hamburger"></label>
+
         <a href="#" class="tnw-logo-link">
           <svg viewBox="0 0 66 16" class="tnw-nav-logo">
             <path
@@ -25,32 +27,34 @@
       <div>
         <nav class="nav">
           <ul>
-            <li>
-              <a href="#home">Home</a>
+            <li class="nav-li">
+              <a href="#home" class="nav-link">Home</a>
             </li>
-            <li>
-              <a href="#news" class="link-arrow"
-                >News
-                <label for="arrow">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="arrow-label">
-                    <path fill="none" stroke="#A7AAB2" d="M11.5 3.5L6 9 .5 3.5" /></svg></label
-              ></a>
+            <li class="nav-li">
+              <a href="#news" class="link-arrow nav-link">News</a>
+              <label>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="arrow-label">
+                  <path fill="none" stroke="#A7AAB2" d="M11.5 3.5L6 9 .5 3.5" />
+                </svg>
+              </label>
             </li>
-            <li>
-              <a href="#events" class="link-arrow"
-                >Events<label for="arrow">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="arrow-label">
-                    <path fill="none" stroke="#A7AAB2" d="M11.5 3.5L6 9 .5 3.5" /></svg></label
-              ></a>
+            <li class="nav-li">
+              <a href="#events" class="link-arrow nav-link">Events</a>
+              <label>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="arrow-label">
+                  <path fill="none" stroke="#A7AAB2" d="M11.5 3.5L6 9 .5 3.5" />
+                </svg>
+              </label>
             </li>
-            <li><a href="#programs">Programs</a></li>
-            <li><a href="#spaces">Spaces</a></li>
-            <li>
-              <a href="#more" class="link-arrow"
-                >More<label for="arrow">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="arrow-label">
-                    <path fill="none" stroke="#A7AAB2" d="M11.5 3.5L6 9 .5 3.5" /></svg></label
-              ></a>
+            <li class="nav-li"><a href="#programs" class="nav-link">Programs</a></li>
+            <li class="nav-li"><a href="#spaces" class="nav-link">Spaces</a></li>
+            <li class="nav-li">
+              <a href="#more" class="link-arrow nav-link">More</a>
+              <label>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" class="arrow-label">
+                  <path fill="none" stroke="#A7AAB2" d="M11.5 3.5L6 9 .5 3.5" />
+                </svg>
+              </label>
             </li>
           </ul>
         </nav>
@@ -64,81 +68,69 @@
     </div>
     <!-- end of nav section -->
 
-    <!-- start of yellow div section-->
-    <section>
-      <div class="yellow">
-        <span
-          >TNW Conference 2021: the first event ever to accept payment with altcoins
-          <i class="fas fa-long-arrow-alt-right"></i
-        ></span>
-      </div>
-    </section>
+    <!-- start of yellow div section -->
+    <div class="yellow">
+      <span
+        >TNW Conference 2021: the first event ever to accept payment with altcoins
+        <i class="fas fa-long-arrow-alt-right"></i
+      ></span>
+    </div>
     <!-- end of yellow div section-->
 
     <!-- start of logo heart section -->
-    <section class="section-logo">
-      <div class="logo-heart">
-        <svg viewBox="0 0 66 16">
-          <path
-            d="M32.23993 5A6.00284 6.00284 0 0 1 34 9.24261V16h-6v-5.929a2.00249 2.00249 0 0 0-.58856-1.41424l-2.07239-2.07101A2.00315 2.00315 0 0 0 23.92346 6H22v10h-6V0h8.75189a6 6 0 0 1 4.24268 1.75739zM60 0v5.929a2.00245 2.00245 0 0 1-.58856 1.41418l-2.07385 2.071A1.99969 1.99969 0 0 1 55.9234 10h-2.88214A5.99166 5.99166 0 0 0 54 6.75732V0h-6v5.929a2.00245 2.00245 0 0 1-.58856 1.41418l-2.07385 2.071A1.99969 1.99969 0 0 1 43.9234 10H42V0h-6v16h8.75189a6.003 6.003 0 0 0 4.244-1.75739L51 12.23938V16h5.75189a6.003 6.003 0 0 0 4.244-1.75739l3.244-3.24267A6.00264 6.00264 0 0 0 66 6.75732V0zM0 6h4v10h6V6h4V0H0z"
-          ></path>
-        </svg>
-        <div>
-          <p>The heart of tech</p>
-        </div>
+    <div class="logo-heart">
+      <svg viewBox="0 0 66 16">
+        <path
+          d="M32.23993 5A6.00284 6.00284 0 0 1 34 9.24261V16h-6v-5.929a2.00249 2.00249 0 0 0-.58856-1.41424l-2.07239-2.07101A2.00315 2.00315 0 0 0 23.92346 6H22v10h-6V0h8.75189a6 6 0 0 1 4.24268 1.75739zM60 0v5.929a2.00245 2.00245 0 0 1-.58856 1.41418l-2.07385 2.071A1.99969 1.99969 0 0 1 55.9234 10h-2.88214A5.99166 5.99166 0 0 0 54 6.75732V0h-6v5.929a2.00245 2.00245 0 0 1-.58856 1.41418l-2.07385 2.071A1.99969 1.99969 0 0 1 43.9234 10H42V0h-6v16h8.75189a6.003 6.003 0 0 0 4.244-1.75739L51 12.23938V16h5.75189a6.003 6.003 0 0 0 4.244-1.75739l3.244-3.24267A6.00264 6.00264 0 0 0 66 6.75732V0zM0 6h4v10h6V6h4V0H0z"
+        ></path>
+      </svg>
+      <div>
+        <p>The heart of tech</p>
       </div>
-    </section>
+    </div>
     <!-- end of logo heart section -->
 
     <!-- start of main-grid section -->
     <section class="top-main">
       <div class="top-container">
-        <a href="#" class="box-bottom showcase showcase-a">
-          <div>
-            <h1>up next</h1>
-            <p class="ceo">TNW's CEO?</p>
-          </div>
-        </a>
-        <a href="#" class="box-bottom top-box-a">
-          <div>
-            <h1>shift</h1>
-            <p>
-              Mercedes unveils EV lineup: the beauty, the beast, and the ugly duckling
-            </p>
-          </div>
-        </a>
-        <a href="#" class="box-bottom top-box-b">
-          <div>
-            <h1>neural</h1>
-            <p>Debunking the mysteries of deep reinforcement learning</p>
-          </div>
-        </a>
-        <a href="#" class="box-bottom top-box-c">
-          <div>
-            <p>
-              The countdown has started TNW Conference 2021 is less than 30 days away!
-            </p>
-            <button class="btn">get tickets</button>
-          </div>
-        </a>
-        <a href="#" class="box-bottom showcase showcase-b">
-          <div>
-            <h1>killing planned obsolescence</h1>
-            <p class="germany">
-              Germany wants to ensure your phone last up to 7 years
-            </p>
-          </div>
-        </a>
-      </div>
+        <div class="box-bottom showcase showcase-a">
+          <h1>up next</h1>
+          <p class="ceo">TNW's CEO?</p>
+        </div>
 
-      <a href="#" class="top-box-mobile">
-        <div>
+        <div class="box-bottom top-box-a">
+          <h1>shift</h1>
+          <p>
+            Mercedes unveils EV lineup: the beauty, the beast, and the ugly duckling
+          </p>
+        </div>
+
+        <div class="box-bottom top-box-b">
+          <h1>neural</h1>
+          <p>Debunking the mysteries of deep reinforcement learning</p>
+        </div>
+
+        <div class="box-bottom top-box-c">
           <p>
             The countdown has started TNW Conference 2021 is less than 30 days away!
           </p>
-          <button class="btn">get tickets</button>
+          <button type="button" class="btn">get tickets</button>
         </div>
-      </a>
+
+        <div class="box-bottom showcase showcase-b">
+          <h1>killing planned obsolescence</h1>
+          <p class="germany">
+            Germany wants to ensure your phone last up to 7 years
+          </p>
+        </div>
+      </div>
+
+      <div class="top-box-mobile">
+        <p>
+          The countdown has started TNW Conference 2021 is less than 30 days away!
+        </p>
+        <button type="button" class="btn">get tickets</button>
+      </div>
 
       <div class="advert">
         <p>advert here</p>
@@ -151,22 +143,26 @@
       <h2>popular articles today</h2>
       <div class="articles-div">
         <ol>
-          <li>
-            <a href="#"
+          <li class="articles-li">
+            <a href="#" class="article-link"
               >The ISS could be gone by 2024 — what does it mean the future of space travel?</a
             >
           </li>
-          <li>
-            <a href="#">How the H.266 video standard will help stream content way faster</a>
+          <li class="articles-li">
+            <a href="#" class="article-link"
+              >How the H.266 video standard will help stream content way faster</a
+            >
           </li>
-          <li><a href="#">TNW’s CEO?</a></li>
-          <li>
-            <a href="#"
+          <li class="articles-li"><a href="#" class="article-link">TNW’s CEO?</a></li>
+          <li class="articles-li">
+            <a href="#" class="article-link"
               >Bosch brings ebike personalization through smart hardware and OTA updates</a
             >
           </li>
-          <li>
-            <a href="#">Mercedes unveils EV lineup: the beauty, the beast, and the ugly duckling</a>
+          <li class="articles-li">
+            <a href="#" class="article-link"
+              >Mercedes unveils EV lineup: the beauty, the beast, and the ugly duckling</a
+            >
           </li>
         </ol>
       </div>
@@ -255,7 +251,7 @@
         </div>
       </div>
 
-      <button class="btn-news">all news <i class="fas fa-arrow-right"></i></button>
+      <button type="button" class="btn-news">all news <i class="fas fa-arrow-right"></i></button>
     </section>
     <!-- end of stories section -->
 
@@ -310,7 +306,7 @@
           <div>
             <input type="email" placeholder="Email" />
             <i class="fas fa-envelope input-i"></i>
-            <p>subscribe</p>
+            <p class="newsletter-div-p">subscribe</p>
           </div>
           <div class="awesome">
             <i class="fab fa-facebook-square"></i>
@@ -331,7 +327,7 @@
       <h2 class="special-h2">Watch what we made you</h2>
       <div class="watch-display">
         <div>
-          <video src="/video/Cutting Down Trees and Making Furniture.mp4" controls></video>
+          <video src="/video/Trees.mp4" controls></video>
           <div class="text">
             <p>Nothing Ear (1) review: Style… and substance?</p>
             <span>Jul 30, 2021</span>
@@ -339,17 +335,13 @@
         </div>
         <div class="watch-inner">
           <div>
-            <video
-              src="/video/Cutting Down Trees and Making Furniture.mp4"
-              controls
-              class="video-gen"
-            ></video>
+            <video src="/video/Trees.mp4" controls class="video-gen"></video>
             <div class="text-inner">
               <p>Nothing Ear (1) review: Style… and substance?</p>
             </div>
           </div>
           <div>
-            <video src="/video/videoplayback (3).mp4" controls class="video-gen"></video>
+            <video src="/video/videoplayback(3).mp4" controls class="video-gen"></video>
             <div class="text-inner">
               <p>Nothing Ear (1) review: Style… and substance?</p>
             </div>
@@ -395,7 +387,7 @@
             to engage your audience more effectively, innovate your business, and position your
             brand in front of a digital-savvy audience?
           </p>
-          <button>get in touch</button>
+          <button type="button">get in touch</button>
         </div>
         <div class="goal-img">
           <div>
@@ -427,34 +419,32 @@
     <!-- end of goal section -->
 
     <!-- start of sponsor section -->
-    <section class="sponsor">
-      <div class="sponsor-display">
-        <div>
-          <img src="/images/google.svg" alt="google" />
-        </div>
-        <div>
-          <img src="/images/etoro.svg" alt="etoto" />
-        </div>
-        <div>
-          <img src="/images/ibm.svg" alt="ibm" />
-        </div>
-        <div>
-          <img src="/images/microsoft.svg" alt="microsoft" />
-        </div>
-        <div>
-          <img src="/images/paypal.svg" alt="paypal" />
-        </div>
-        <div>
-          <img src="/images/vodafone.svg" alt="vodafone" />
-        </div>
-        <div>
-          <img src="/images/accenture.svg" alt="accenture" />
-        </div>
-        <div>
-          <img src="/images/mckinsey-company.svg" alt="mckinsey-company" />
-        </div>
+    <div class="sponsor-display">
+      <div>
+        <img src="/images/google.svg" alt="google" />
       </div>
-    </section>
+      <div>
+        <img src="/images/etoro.svg" alt="etoto" />
+      </div>
+      <div>
+        <img src="/images/ibm.svg" alt="ibm" />
+      </div>
+      <div>
+        <img src="/images/microsoft.svg" alt="microsoft" />
+      </div>
+      <div>
+        <img src="/images/paypal.svg" alt="paypal" />
+      </div>
+      <div>
+        <img src="/images/vodafone.svg" alt="vodafone" />
+      </div>
+      <div>
+        <img src="/images/accenture.svg" alt="accenture" />
+      </div>
+      <div>
+        <img src="/images/mckinsey-company.svg" alt="mckinsey-company" />
+      </div>
+    </div>
     <!-- end of sponsor section -->
 
     <!-- start of footer section -->
@@ -480,24 +470,24 @@
         </div>
 
         <div class="second-side">
-          <div>
+          <div class="second-side-div1">
             <h3 class="footer-h2">more tnw</h3>
-            <li><a href="#">media</a></li>
-            <li><a href="#">events</a></li>
-            <li><a href="#">programs</a></li>
-            <li><a href="#">spaces</a></li>
-            <li><a href="#">newsletter</a></li>
-            <li><a href="#">deals</a></li>
+            <a href="#">media</a>
+            <a href="#">events</a>
+            <a href="#">programs</a>
+            <a href="#">spaces</a>
+            <a href="#">newsletter</a>
+            <a href="#">deals</a>
           </div>
 
-          <div>
+          <div class="second-side-div2">
             <h3 class="footer-h2">about tnw</h3>
-            <li><a href="#">partner with us</a></li>
-            <li><a href="#">jobs</a></li>
-            <li><a href="#">terms & conditions</a></li>
-            <li><a href="#">cookie statement</a></li>
-            <li><a href="#">privacy statement</a></li>
-            <li><a href="#">editorial policy</a></li>
+            <a href="#">partner with us</a>
+            <a href="#">jobs</a>
+            <a href="#">terms & conditions</a>
+            <a href="#">cookie statement</a>
+            <a href="#">privacy statement</a>
+            <a href="#">editorial policy</a>
           </div>
         </div>
       </div>
